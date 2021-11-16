@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+  margin-top: 80px;
+  background-color: black;
+  text-align: center;
+  font-family: monospace;
+}
+
+h1 {
+  margin: 70px;
+  letter-spacing: 6px;
+  font-size: 3em;
+}
+
+#drum-machine {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: rgb(25, 197, 40);
+}
+
+#display {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.875em;
+  border: 1px solid rgb(157, 194, 38);
+  border-radius: 30px;
+  padding: 10px;
+}
+
+#drum-pads {
+  height: 50vh;
+  width: 100vw;
+  font-size: 1.250em;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+

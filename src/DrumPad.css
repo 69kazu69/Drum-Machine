@@ -1,0 +1,15 @@
+.drum-pad {
+  height: 20vh;
+  width: 25vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1vw; 
+  border: 1px solid rgb(119, 206, 21);
+  border-radius: 30px;
+}
+
+.drum-pad-active {
+  background-color: #acca26;
+  color: black;
+ }
